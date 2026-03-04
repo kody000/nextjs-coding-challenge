@@ -3,7 +3,7 @@ First of all i initialized project
 Then after reading to README with instructions I've noticed that i can use any tool that will make my work faster,
 there are no strict requirements for backend and sentences so i decided not to go with database and delegated that to AI and I generated list of sentences in AI also.
 
-Having those in mind I've opened opencode, started planning based on INSTRUCTIONS and after getting solid plan I commanded it to be done.
+Having those in mind I've opened opencode, started planning based on instructions and after getting solid plan I commanded it to be done.
 
 At this moment I've noticed that we have layout bugs and accuracy is to be fixed as now its counting it only based on Current sentence which is not valid for me as it should collect data overall.
 
