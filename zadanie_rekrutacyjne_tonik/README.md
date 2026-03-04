@@ -1,36 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+First of all i initialized project 
 
-## Getting Started
+Then after reading to README with instructions I've noticed that i can use any tool that will make my work faster,
+there are no strict requirements for backend and sentences so i decided not to go with database and delegated that to AI and I generated list of sentences in AI also.
 
-First, run the development server:
+Having those in mind I've opened opencode, started planning based on INSTRUCTIONS and after getting solid plan I commanded it to be done.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+At this moment I've noticed that we have layout bugs and accuracy is to be fixed as now its counting it only based on Current sentence which is not valid for me as it should collect data overall.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I'm proceeding with fix for that.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+At this moment my project was corrupted with existing and non existing "nul" file which completly stopped my app from working (reported that to Martyna). It appeared out of the sudden so not to waste time i copied working parts of code to clone of original fork.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Now after retrieving working application I'm proceeding with fixing bugs.
