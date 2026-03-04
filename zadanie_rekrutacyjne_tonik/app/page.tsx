@@ -24,7 +24,7 @@ export default function Home() {
               </Button>
             </Link>
             
-            <div className="relative">
+            <div className="relative mt-4">
               <div className="absolute inset-0 flex items-center">
                 <span className="w-full border-t" />
               </div>
